@@ -48,6 +48,7 @@
     @apply flex flex-col justify-center gap-6 items-start;
   }
   .ico {
+    cursor: pointer;
     max-width: 5rem;
     max-height: 5rem;
     transition: all ease-in-out 0.3s;
@@ -146,5 +147,8 @@
     right: 51%;
     transform: translateX(50%);
     font-size: 6.8rem;
+  }
+  .active-nav {
+    @apply font-normal;
   }
 }

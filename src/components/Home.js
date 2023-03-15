@@ -24,7 +24,12 @@ const Home = () => {
     };
   };
   return (
-    <motion.div animate={anim} initial={init} className="home-base">
+    <motion.div
+      animate={anim}
+      initial={init}
+      transition={{ duration: ".5" }}
+      className="home-base"
+    >
       <div className="flex">
         <div className="flex w-1/2 grow">
           <div className="flex flex-col gap-5 part-box grow">
